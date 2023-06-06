@@ -1,0 +1,45 @@
+body {
+  height: 100vh !important;
+}
+h1,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-weight: 900;
+  font-size: 46px;
+  /* margin: 70px 470px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  display: flex;
+  /* color: white; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.btn,
+.save-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  border: none;
+  background: brown;
+  border-radius: 6px;
+  position: relative;
+  left: 42%;
+  top: 50%;
+  cursor: pointer;
+  padding: 20px;
+}
+.save-btn {
+  background: green;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  left: 45%;
+}
